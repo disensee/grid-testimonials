@@ -123,6 +123,8 @@ body{
     font-size: 1.1em;
     opacity: 70%;
     padding: 0 20px;
+    max-height: 100%;
+    overflow: hidden;
 }
 
 .attribution { font-size: 11px; text-align: center; }
