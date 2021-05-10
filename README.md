@@ -45,7 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-I had only used CSS grid once before in the past, so I started this project to get more familiar with how grids in CSS work. This is my first Front End Mentor, and I had a lot of fun with it. I am looking forward to moving on to more challenging projects. 
+I had only used CSS grid once before in the past, so I started this project to get more familiar with how Grid in CSS works. This is my first Front End Mentor, and I had a lot of fun with it. I am looking forward to moving on to more challenging projects. 
 To see how you can add code snippets, see below:
 
 I manually placed each card within in the grid. I'm not sure if this is a good way to go about grid positioning, but it gave me the opportunity to tinker with CSS grid items and worked just fine for the scope of this project. 
