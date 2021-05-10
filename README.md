@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/disensee/grid-testimonials)
-- Live Site URL: [Add live site URL here](https://dylanisensee.com/fementor/testimonials-grid-section/)
+- Live Site URL: [Add live site URL here](https://disensee.github.io/grid-testimonials/)
 
 ## My process
 
