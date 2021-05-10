@@ -21,7 +21,7 @@ body{
 
 .card{
     border-radius: 5px;
-    box-shadow: 3px 3px 10px #000;
+    box-shadow: 3px 3px 10px #444;
     padding: 10px 0 10px 0;
 }
 
@@ -125,6 +125,7 @@ body{
 }
 
 .testimonial {
+    font-size: 1.1em;
     opacity: 70%;
 }
 
@@ -142,5 +143,6 @@ body{
 
     .card{
         max-width: 800px;
+        margin: 0 20px;
     }
 }
