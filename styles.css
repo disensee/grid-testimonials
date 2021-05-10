@@ -1,2 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+:root{
+    box-sizing: border-box;
+}
+
+.grid-container{
+    background-color: hsl(210, 46%, 95%);
+    height: fit-content;
+    display: grid;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    grid-template-columns: 5% 20% 20% 20% 20% 5%;
+    grid-template-rows: 5% 40% 40% 5%;
+    height: 100vh;
+    width: 100%;
+}
+
+.card{
+    border-radius: 5px;
+    padding: 10px 0 10px 0;
+}
+
+.person-info-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.person-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.person-info p{
+    margin: 2px;
+}
+
+.testimonial-img{
+    border-radius: 50%;
+    border: 2px solid;
+    margin: 10px;
+}
+
+.bg-purple {
+    background-color: hsl(263, 55%, 52%);
+    background-image: url('./images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: 80%;
+}
+
+.bg-lightergray {
+    background-color: hsl(217, 19%, 35%);
+}
+
+.bg-white {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.bg-dark {
+    background-color: hsl(219, 29%, 14%);
+}
+
+.daniel {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.jonathan {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.jeanette {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.jeanette {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.patrick {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.kira {
+    grid-column-start: 5;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.daniel, .jonathan, .patrick {
+    color: white;
+}
+
+.highlight{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 10px 30px;
+}
+
+.verified{
+    opacity: 50%;
+}
+
+.testimonial {
+    opacity: 70%;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (max-width: 1440px) {
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: unset;
+        padding: 40px 10px;
+    }
+
+    .card{
+        max-width: 800px;
+    }
+}
