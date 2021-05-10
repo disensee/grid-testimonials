@@ -20,9 +20,11 @@ body{
 }
 
 .card{
+    display: flex;
+    flex-direction: column;
     border-radius: 5px;
     box-shadow: 3px 3px 10px #444;
-    padding: 10px 0 10px 0;
+    padding: 10px 0;
 }
 
 .person-info-container{
@@ -120,14 +122,13 @@ body{
 .testimonial {
     font-size: 1.1em;
     opacity: 70%;
-    margin: 0px 20px;
-    overflow: hidden;
+    padding: 0 20px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1140px) {
     .grid-container{
         display: flex;
         flex-direction: column;
